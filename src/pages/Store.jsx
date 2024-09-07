@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import Header from "../components/Header";
-import img1 from "../assets/image125.png";
-import img2 from "../assets/image146.png";
-import img3 from "../assets/image147.png";
-import img4 from "../assets/image148.png";
-import img5 from "../assets/image149.png";
-import img6 from "../assets/image131.png";
+import img1 from "/public/assets/image125.png";
+import img2 from "/public/assets/image146.png";
+import img3 from "/public/assets/image147.png";
+import img4 from "/public/assets/image148.png";
+import img5 from "/public/assets/image149.png";
+import img6 from "/public/assets/image131.png";
 import { useCart } from "../context/CartContext";
 import { IoChevronForward, IoChevronBackOutline } from "react-icons/io5";
 import Footer from "../components/Footer";
