@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import { useAuth } from "../context/AuthContext";
@@ -25,50 +26,50 @@ export default function Home() {
             <tbody>
               <tr>
                 <td className="py-2 px-4 border-b border-gray-300 text-blue-600">
-                  <a href="/login" className="hover:underline">
+                  <Link to="/login" className="hover:underline">
                     /LogIn
-                  </a>
+                  </Link>
                 </td>
                 <td className="py-2 px-4 border-b border-gray-300 text-blue-600">
-                  <a href="/login" className="hover:underline">
+                  <Link to="/login" className="hover:underline">
                     Log in
-                  </a>
+                  </Link>
                 </td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b border-gray-300 text-blue-600">
-                  <a href="/signup" className="hover:underline">
+                  <Link to="/signup" className="hover:underline">
                     /SignUp
-                  </a>
+                  </Link>
                 </td>
                 <td className="py-2 px-4 border-b border-gray-300 text-blue-600">
-                  <a href="/signup" className="hover:underline">
+                  <Link to="/signup" className="hover:underline">
                     Sign up
-                  </a>
+                  </Link>
                 </td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b border-gray-300 text-blue-600">
-                  <a href="/store" className="hover:underline">
+                  <Link to="/store" className="hover:underline">
                     /Store
-                  </a>
+                  </Link>
                 </td>
                 <td className="py-2 px-4 border-b border-gray-300 text-blue-600">
-                  <a href="/store" className="hover:underline">
+                  <Link to="/store" className="hover:underline">
                     Store
-                  </a>
+                  </Link>
                 </td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b border-gray-300 text-blue-600">
-                  <a href="/orderdetails" className="hover:underline">
+                  <Link to="/orderdetails" className="hover:underline">
                     /OrderDetails
-                  </a>
+                  </Link>
                 </td>
                 <td className="py-2 px-4 border-b border-gray-300 text-blue-600">
-                  <a href="/orderdetails" className="hover:underline">
+                  <Link to="/orderdetails" className="hover:underline">
                     Order Details
-                  </a>
+                  </Link>
                 </td>
               </tr>
             </tbody>
