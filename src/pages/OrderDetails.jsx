@@ -22,7 +22,7 @@ const calculateTotalPrice = () => {
             An overview of your order
             </span>
           </div>
-          <div className="rounded-[12px] bg-[#FAFAFA] flex flex-col items-center p-[24px_24px_24px_24px] w-[740px] box-sizing-border">
+          <div className={` ${cartItems.length === 0 ? "" : "p-[24px_24px_24px_24px]"} rounded-[12px] bg-[#FAFAFA] flex flex-col items-center  w-[740px] box-sizing-border`}>
             
             {cartItems.map((item, index) => (
               <div key={item.id}>

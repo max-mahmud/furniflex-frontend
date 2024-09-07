@@ -7,7 +7,7 @@ import img4 from "../assets/image148.png";
 import img5 from "../assets/image149.png";
 import img6 from "../assets/image131.png";
 import { useCart } from "../context/CartContext";
-import { IoChevronForward } from "react-icons/io5";
+import { IoChevronForward, IoChevronBackOutline } from "react-icons/io5";
 import Footer from "../components/Footer";
 import addad from "../assets/Added.png";
  
@@ -101,9 +101,9 @@ export default function Store() {
                       </span>
                     </div>
                     <div className="flex w-[245px] box-sizing-border">
-                      <div className="rounded-[5px] bg-[#202020] flex flex-row justify-center items-center gap-2 p-[11.5px_0_11.5px_0] w-[245px] h-[fit-content] box-sizing-border">
+                      <div onClick={() => addToCart(product)} className="rounded-[5px] cursor-pointer bg-[#202020] flex flex-row justify-center items-center gap-2 p-[11.5px_0_11.5px_0] w-[245px] h-[fit-content] box-sizing-border">
                         <img src={addad} alt="added" className="w-[16px] h-[16px]" />
-                        <button onClick={() => addToCart(product)} className="break-words font-['Barlow'] font-semibold text-[16px] text-[#FFFFFF]">
+                        <button  className="break-words font-['Barlow'] font-semibold text-[16px] text-[#FFFFFF]">
                           Add to cart
                         </button>
                       </div>
@@ -114,8 +114,8 @@ export default function Store() {
             </div>
           </div>
           <div className=" w-full m-[0_3px_0_3px] flex flex-row gap-[0_8px] justify-center box-sizing-border">
-            <div className="opacity-50 rounded-[4px] bg-[#DADADA] flex p-[10px_12.8px_10px_11.8px] w-[32px] h-[32px] box-sizing-border">
-              <img className="w-[12px] h-[7.4px]" />
+            <div className="opacity-50 rounded-[4px] bg-[#DADADA] flex p-2 w-[32px] h-[32px] box-sizing-border">
+              <IoChevronBackOutline className="scale-125 text-gray-400"  />
             </div>
             <div className="flex box-sizing-border">
               <div className="rounded-[4px] border border-[#0E0E0E] bg-[#FFFFFF] flex p-[4px_12.5px_6px_12.5px] box-sizing-border">

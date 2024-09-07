@@ -37,18 +37,6 @@ export default function Home() {
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b border-gray-300 text-blue-600">
-                  <a href="/orderdetails" className="hover:underline">
-                    /OrderDetails
-                  </a>
-                </td>
-                <td className="py-2 px-4 border-b border-gray-300 text-blue-600">
-                  <a href="/orderdetails" className="hover:underline">
-                    Order Details
-                  </a>
-                </td>
-              </tr>
-              <tr>
-                <td className="py-2 px-4 border-b border-gray-300 text-blue-600">
                   <a href="/signup" className="hover:underline">
                     /SignUp
                   </a>
@@ -68,6 +56,18 @@ export default function Home() {
                 <td className="py-2 px-4 border-b border-gray-300 text-blue-600">
                   <a href="/store" className="hover:underline">
                     Store
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td className="py-2 px-4 border-b border-gray-300 text-blue-600">
+                  <a href="/orderdetails" className="hover:underline">
+                    /OrderDetails
+                  </a>
+                </td>
+                <td className="py-2 px-4 border-b border-gray-300 text-blue-600">
+                  <a href="/orderdetails" className="hover:underline">
+                    Order Details
                   </a>
                 </td>
               </tr>
